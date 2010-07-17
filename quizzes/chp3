@@ -6,6 +6,6 @@
 
 3.8: Classes System and String are part of the Java.lang package, which is automatically included in every Java application.
 
-3.9: The Scanner class can be used without first importing the package by using the fully qualified class name. This would look like 'new Java.util.Scanner().'
+3.9: The Scanner class can be used without first importing the package by using the fully qualified class name. This would look like 'java.util.Scanner input = new java.util.Scanner().'
 
 3.10: Get methods and set methods, or accessors, are used to give an object control over it's fields. For example, a class could enfore a rule that a salary attribute not be negative by using validation logic for the salary before setting it.
