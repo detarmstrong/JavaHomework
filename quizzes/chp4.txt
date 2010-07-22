@@ -1,11 +1,4 @@
-3.5: The new keyword is part of the class instance creation expression. Its purpose is to create an instance of a class, the object. It reserves space in memory for the new object.
-
-3.6: The default constructor is what java uses as a class constructor in the absence of a user declared constructor. An object's instance variables are initialized by their default values when the default constructor is used. Byte, char, short, int, long, double, float primitive types and are are initialized to 0. 
-
-3.7: Instance variables allow you to hide data within an object. The variables can be accessed to other classes by means of accessors, like getters and setters. Encapsulation of data is important to object oriented design because it gives the class greater control over how it is used, making it's usage predictable. The variables are specific to that object; different objects of the same class can contain different data.
-
-3.8: Classes System and String are part of the Java.lang package, which is automatically included in every Java application.
-
-3.9: The Scanner class can be used without first importing the package by using the fully qualified class name. This would look like 'java.util.Scanner input = new java.util.Scanner().'
-
-3.10: Get methods and set methods, or accessors, are used to give an object control over it's fields. For example, a class could enfore a rule that a salary attribute not be negative by using validation logic for the salary before setting it.
+4.10. The if single-selection statement and the while repetition statement are similar in that both evaluate a condition for truthiness and make a decision based on a boolean return value. Both execute statements contained within the following block. Obviously the single selection if will only execute once before passing control while the while will execute the block for as along as the condition is true. 
+4.11. A java program uses integer division when a program attempts to divide one integer by another. The quotient is going to be an integer, too. Explicit casting, or type casting, can be used to coerce a result of a different type. For example, the statement 
+quotient = (double) someInt / someInt2;
+will yield a variable of type double.
